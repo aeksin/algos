@@ -7,10 +7,10 @@ const long long INF = 1e9;
 
 int main(int argc,char* argv[]){
     std::ios_base::sync_with_stdio(0);std::cin.tie(0);std::cout.tie(0);
-    int n;
-    cin>>n;
+    int n,m;
+    cin>>n>>m;
     vector<vector<pair<int,int>>> graph(n);
-    for (int i=0;i<n;i++){
+    for (int i=0;i<m;i++){
         int x,y,c;
         cin>>x>>y>>c;
         x--;
